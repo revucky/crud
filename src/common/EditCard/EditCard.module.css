@@ -1,0 +1,28 @@
+.form label {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.form input {
+  font-size: 16px;
+}
+.red {
+  color: #f00;
+}
+.btnWrapper {
+  display: flex;
+  justify-content: center;
+}
+.dotes {
+  border: none;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgb(241, 197, 241);
+}
+.menuBtn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.menuBtnD {
+  position: absolute;
+}

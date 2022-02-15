@@ -1,0 +1,27 @@
+.list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12px;
+  justify-items: center;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  border-radius: 18px;
+  box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+  width: 300px;
+}
+.titleWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img {
+  width: 200px;
+  margin-top: 5px;
+}
+.imgWrap {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,44 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label {
+  font-family: Ubuntu;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+}
+.input {
+  border: 1.17246px solid #c8c8c8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 220px;
+  height: 25px;
+  padding-left: 8px;
+}
+.btn {
+  background: #f57b0b;
+  border-radius: 6px;
+  border: none;
+  width: 105px;
+  height: 30px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: auto;
+  /* margin-right: auto; */
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+}
+.btn:hover {
+  background-color: purple;
+  transition: box-shadow 0.5s, transform 0.5s;
+  transform: scale(1.2);
+  color: white;
+  text-transform: uppercase;
+}
